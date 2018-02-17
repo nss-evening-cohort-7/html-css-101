@@ -17,6 +17,15 @@ h1 {
   )
 }
 
+ul {
+  list-style: none;
+}
+
+li {
+  border-bottom: dotted 1px black;
+  margin: 10px 0 0 8px;
+}
+
 /* Grid ________________________________________________________*/
 .main-container {
   width: 60%;
@@ -48,6 +57,27 @@ img {
   display: inherit;
 }
 
+/* right column ________________________________*/
+.right-column li a {
+  font-weight: bold;
+  color: #E5D9BC;
+  list-style-position: inside;
+  display: list-item;
+  list-style-type: disc;
+}
+.right-column li a:hover{
+  color: #7ECDFF;
+}
+
+.right-column li a.designer-name {
+  font-weight: normal;
+  color: #595339;
+  display: inline;
+}
+
+.right-column li a.designer-name:hover{
+  color: #7ECDFF;
+}
 
 /* custom __________________________*/
 
