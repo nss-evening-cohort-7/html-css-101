@@ -1,0 +1,56 @@
+/* General Styles ___________________________________________________*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  padding-left: 15px;
+  line-height: 30px;
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(0,0,0,0),
+    rgba(0,0,0,0) 2px,
+    rgba(0,0,0,0.1) 2px,
+    rgba(0,0,0,0.1) 4px
+  )
+}
+
+/* Grid ________________________________________________________*/
+.main-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.column-container {
+  display: table;
+}
+
+.left-column {
+  width: 70%;
+  background-color: #E9E9E7;
+}
+
+.right-column {
+  width: 30%;
+  background-color: #998A67;
+}
+
+.column {
+  display: table-cell;
+}
+
+/* images _______________________________________________ */
+
+img {
+  width: 100%;
+  display: inherit;
+}
+
+
+/* custom __________________________*/
+
+.whole-div-shaddow{
+  box-shadow: 0 0 10px #999999;
+}
